@@ -19,7 +19,6 @@ namespace OptionsBinder
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddModelBasedOptions(Configuration);
-
             services.AddMvc();
         }
 
