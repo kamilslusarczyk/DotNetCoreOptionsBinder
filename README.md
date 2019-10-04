@@ -2,7 +2,11 @@
 
 ## Options binder that will allow you to stop inject `IOptions<OptionsModel>`.
 
-Are you tired of injecting IOptions<OptionsModel> to your service's constructor? Worry no more, this library will resolve this problem. Usage is fairly simple:
+Are you tired of injecting IOptions<OptionsModel> to your service's constructor? Worry no more, this library will resolve this problem.
+
+Credits for this idea goes to mr Anthony Giretti and his article: http://anthonygiretti.com/2019/09/15/simplified-options-usage-in-asp-net-core-2/.
+  
+Usage is fairly simple:
   
 1. Install this library from Nuget repository: https://www.nuget.org/packages/OptionsBinder.Configuration/1.0.0
 2. Invoke extension in Startup.cs class:
